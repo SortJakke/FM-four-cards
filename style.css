@@ -107,6 +107,13 @@ main {
 }
 
 @media screen and (min-width: 1000px) {
+  h1{
+    font-size: 2.4em;
+  }
+  .bolder {
+  display: block;
+  font-weight: 600;
+}
   main {
     width: fit-content;
     grid-template-columns: repeat(3, 1fr);
